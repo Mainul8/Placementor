@@ -1,0 +1,34 @@
+.index{
+    font-weight: bold;
+    font-display: center;
+    width:auto;
+    height: auto;
+    justify-content: center;
+  
+  }
+  
+  .index-logo {
+    height: 10vmin;
+    pointer-events: none;
+    min-height: 20vh;
+    display:flexbox;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    font-size: calc(5px + 1vmin);
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .index-logo {
+      animation: Home-logo-spin infinite 20s linear;
+    }
+  }
+  
+  @keyframes Home-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

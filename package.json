@@ -1,0 +1,27 @@
+{
+  "name": "placementor",
+  "version": "1.7.0",
+  "description": "The recruiting software built with React/Redux (Client), Node/Express (API), and MongoDB (Database).",
+  "scripts": {
+    "install": "cd server && npm i && cd ../client && npm i",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mainul8/Placementor.git"
+  },
+  "author": {
+    "name": "placementor",
+    "url": "https://github.com/Mainul8"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Mainul8/Placementor/issues"
+  },
+  "homepage": "https://github.com/Mainul8/Placementor#readme",
+  "devDependencies": {
+    "concurrently": "^7.2.1"
+  }
+}
